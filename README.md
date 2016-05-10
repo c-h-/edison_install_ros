@@ -23,3 +23,7 @@ Built and tested on OS X.
     - copy `run_on_ubilinux_edison.sh` and `run_on_ubilinux_edison_optional_part2.sh` onto the Edison board
     - Run `run_on_ubilinux_edison.sh` first, then run `run_on_ubilinux_edison_optional_part2.sh` if desired
       - `run_on_ubilinux_edison_optional_part2.sh` installs the tutorials and Android sensor topic subscriber.
+
+## Walkthrough
+For a walkthrough of how to use this repository to install ROS in a larger Android-enabled ROS cluster, see:
+https://medium.com/@chulcher/d030069b7bfc
