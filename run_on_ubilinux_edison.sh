@@ -125,8 +125,10 @@ install_ros () {
 	# ignore errors because errors if file exists
 	cp -r -n /usr/local/lib/i386-linux-gnu/* /usr/lib/i386-linux-gnu/
 
-	# make everything
-	catkin_make
+	# OPTIONAL, installs beginner tutorials (see http://wiki.ros.org/ROS/Tutorials/CreatingPackage)
+	# and android subscriber script 
+	# comment out below line to disable this part of the install
+	./run_on_ubilinux_edison_optional_part2.sh
 
 	# cleanup a bit
 	apt-get autoremove || on_error
